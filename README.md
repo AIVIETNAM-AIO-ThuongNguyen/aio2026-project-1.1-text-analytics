@@ -5,6 +5,12 @@
 
 # 📊 AIO 2026 — Project 1.1 (Extended): Text Analytics Dashboard
 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-3DA639)
+![Code style](https://img.shields.io/badge/code%20style-PEP%208-1f6feb)
+
+
 > 🇬🇧 **EN** — An **offline** Streamlit dashboard that profiles a free-text column in an Excel/CSV file: length statistics, per-row language detection, keyword frequency, and interactive **Plotly** charts. Built as an **extension of Project 1.1** (Module 01) and logged under **Keep Track Day 02** of AIO 2026.
 >
 > 🇻🇳 **VI** — Dashboard Streamlit chạy **offline**, phân tích một cột văn bản trong file Excel/CSV: thống kê độ dài, nhận diện ngôn ngữ từng dòng, đếm từ khoá và biểu đồ **Plotly** tương tác. Đây là **bản mở rộng của Project 1.1** (Module 01), ghi nhận trong **Keep Track Day 02** của AIO 2026.
@@ -18,8 +24,14 @@
 - 🇬🇧 Project 1.1 ships two **online** NLP apps (translation + spell/grammar check) that call Google Translate and LanguageTool. This dashboard reuses the same Streamlit + langdetect foundation but stays **100% offline**, focusing on **text analytics** instead of translation.
 - 🇻🇳 Project 1.1 gồm hai app NLP **trực tuyến** (dịch + kiểm tra chính tả/ngữ pháp) cần Google Translate và LanguageTool. Dashboard này kế thừa nền Streamlit + langdetect nhưng chạy **hoàn toàn offline**, tập trung vào **phân tích văn bản**.
 
+🔗 **Live Streamlit App for Text Analytics Dashboard:** https://aio2026-project-11-nlp-bvlhsybdbguf7zgmqmdkhp.streamlit.app/
+
 ---
 
+## 🎬 Demo · Minh hoạ trực quan
+
+<img src="assets/demo_text_analytics_dashboard.gif" alt="Demo Gif" width="100%"/>
+   
 ## ✨ Features · Tính năng
 
 - Upload a `.csv` / `.xlsx` file and pick any text column to analyse.
@@ -52,7 +64,7 @@ aio2026-project-1.1-text-analytics/
 ├── data/
 │   └── sample_reviews.xlsx           # Objective multilingual sample dataset
 ├── assets/
-│   └── demo_text_analytics_dashboard.gif          # demo 
+│   └── demo_text_analytics_dashboard.gif # demo Gif 
 ├── .gitignore
 ├── LICENSE
 ├── README.md
